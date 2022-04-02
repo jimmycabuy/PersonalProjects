@@ -6,6 +6,8 @@ body {
 #principal {
     display: flex;
     justify-content: space-around;
+    margin: 1%;
+    gap: 2%;
 }
 
 .sous-div {
@@ -13,7 +15,7 @@ body {
 }
 
 .sous-sous-div {
-    width: 30%;
+    width: 50%;
 }
 
 .sous-sous-sous-div {
@@ -62,6 +64,7 @@ body {
     margin-top: 2%;
     margin-bottom: 0;
     font-size: 70%;
+    color: rgb(168, 166, 166);
 }
 
 #pdf {
@@ -72,12 +75,12 @@ body {
     padding-right: 2%;
 }
 
-#bloc-pdf {
+.bloc {
     background-color: white;
-    margin-top: 5%;
     border-radius: 25px;
     padding-top: 2%;
     padding-bottom: 2%;
+
 }
 
 #drag-file {
@@ -87,11 +90,13 @@ body {
     justify-content: center;
     background-color: #86c6f486;
     border-radius: 15px;
-    border-style: dashed;
+    border: 2.5px dashed #86C6F4;
     color: white;
-    padding: 10%;
+    padding: 3%;
     align-items: center;
-    margin: 5%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .button {
@@ -101,5 +106,85 @@ body {
     border: #86C6F4;
     border-radius: 10px;
     padding: 3%;
-    width: 80%;
+    width: 40%;
+}
+
+/* .button:hover {
+    color: #86C6F4;
+    background-color: rgba(240, 240, 240, 0.508);
+    font-family: 'Poppins', sans-serif;
+    border: white;
+    border-radius: 10px;
+    padding: 3%;
+    width: 40%;
+} */
+
+p {
+    font-size: 70%;
+}
+
+.upload {
+    width: 15%;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.document-convert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgba(240, 240, 240, 0.508);
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.button-convert {
+    color: white;
+    background-color: #86C6F4;
+    font-family: 'Poppins', sans-serif;
+    border: #86C6F4;
+    border-radius: 10px;
+    padding: 1%;
+    width: 15%;
+}
+
+#history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#history-doc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgba(240, 240, 240, 0.508);
+    border-radius: 10px;
+    margin-top: 3%;
+
+}
+
+.bloc-history {
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.fa-file-pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFAAA7;
 }
