@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(240, 240, 240, 0.508);
+}
+
+#principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sous-div {
+    width: 30%;
+}
+
+.sous-sous-div {
+    width: 30%;
+}
+
+.sous-sous-sous-div {
+    width: 30%;
+}
+
+#info-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#nav-bar {
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#memoji {
+    width: 20%;
+    background-color: #FDD7AA;
+    border-radius: 50%;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-left: 5%;
+}
+
+.paragraphe-nom {
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 90%;
+}
+
+.paragraphe-mail {
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 70%;
+}
+
+#pdf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#bloc-pdf {
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#drag-file {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #86c6f486;
+    border-radius: 15px;
+    border-style: dashed;
+    color: white;
+    padding: 10%;
+    align-items: center;
+    margin: 5%;
+}
+
+.button {
+    color: white;
+    background-color: #86C6F4;
+    font-family: 'Poppins', sans-serif;
+    border: #86C6F4;
+    border-radius: 10px;
+    padding: 3%;
+    width: 80%;
+}
