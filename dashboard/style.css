@@ -39,6 +39,8 @@ body {
     border-radius: 25px;
     padding-top: 2%;
     padding-bottom: 2%;
+    gap: 20%;
+
 }
 
 #memoji {
@@ -52,6 +54,7 @@ body {
     align-items: center;
     gap: 3%;
     margin-left: 5%;
+    margin-bottom: 4%;
 }
 
 .paragraphe-nom {
@@ -79,7 +82,7 @@ body {
     background-color: white;
     border-radius: 25px;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 20%;
 
 }
 
@@ -157,34 +160,70 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
-#history-doc {
+.history-doc {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10%;
+    justify-content: left;
+    gap: 15%;
     margin-left: 4%;
     margin-right: 4%;
     background-color: rgba(240, 240, 240, 0.508);
     border-radius: 10px;
     margin-top: 3%;
-
+    padding-left: 5%;
+    margin-bottom: 3%;
 }
 
 .bloc-history {
     background-color: white;
     border-radius: 25px;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 42%;
 
 }
 
+.fa-file-pdf,
+.fa-file-image,
+.fa-file-video,
+.fa-file-powerpoint,
+.fa-file-audio {
+    color: white;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 50%;
+    padding-right: 50%;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
 .fa-file-pdf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFAAA7;
+    background-color: #DF5E88;
+}
+
+.fa-file-image {
+    background-color: #344FA1;
+}
+
+.fa-file-video {
+    background-color: #5AA469;
+}
+
+.fa-file-powerpoint {
+    background-color: #FF7171;
+}
+
+.fa-file-audio {
+    background-color: #FFB319;
+}
+
+.fa-file-word {
+    color: #86C6F4;
+}
+
+.paragraphe{
+    width: 30%;
 }
