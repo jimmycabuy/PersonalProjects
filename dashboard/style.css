@@ -186,7 +186,7 @@ h4 {
 
 }
 
-.fa-file-pdf,
+.fa-file-code,
 .fa-file-image,
 .fa-file-video,
 .fa-file-powerpoint,
@@ -197,10 +197,10 @@ h4 {
     padding-left: 50%;
     padding-right: 50%;
     border-radius: 10px;
-    opacity: 60%;
+    opacity: 40%;
 }
 
-.fa-file-pdf {
+.fa-file-code {
     background-color: #DF5E88;
 }
 
