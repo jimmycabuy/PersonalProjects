@@ -227,3 +227,8 @@ h4 {
 .paragraphe{
     width: 30%;
 }
+
+.paragraphe-mb{
+    width: 15%;
+    text-align: center;
+}
