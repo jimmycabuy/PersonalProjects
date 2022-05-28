@@ -112,15 +112,18 @@ body {
     width: 40%;
 }
 
-/* .button:hover {
+.button:hover {
+    color: #86C6F4;
+    background-color: white;
+    border: white;
+}
+
+.button-convert:hover{
     color: #86C6F4;
     background-color: rgba(240, 240, 240, 0.508);
-    font-family: 'Poppins', sans-serif;
-    border: white;
-    border-radius: 10px;
-    padding: 3%;
-    width: 40%;
-} */
+    border: 2px solid #86C6F4;
+}
+
 
 p {
     font-size: 70%;
