@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Rubik', sans-serif;
+  background: rgb(255,221,215);
+  background: linear-gradient(90deg, rgba(255,221,215,1) 0%, rgba(255,247,216,1) 100%);
 }
 
 .navbar {
@@ -25,10 +28,15 @@ body {
 .linkNavBar{
   text-decoration: none;
   color: black;
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .linkNavBar:hover{
   color: #FBC6A4; 
+  cursor: pointer;
 }
 
 .blocnavbar3 {
@@ -52,24 +60,57 @@ body {
 #home {
   height: 90vh;
   width: 100vw;
-  background-image: url("../public/images/background-home.jpg");
-  background-size: 100% auto;
 }
 
+.containerHome{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 50px;
+  height: 80vh;
+}
+
+.line-1{
+  /* position: relative; */
+  /* top: 50%;   */
+  /* width: 28em; */
+  /* margin: 0 auto; */
+  /* border-right: 2px solid rgba(255,255,255,.75); */
+  font-size: 600%;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* transform: translateY(-50%); */
+}
+
+/* Animation */
+/* .anim-typewriter{
+animation: typewriter 6s steps(56) 1s 1 normal both,
+           blinkTextCursor 500ms steps(56) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 28em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(0, 0, 0, 0.75);}
+to{border-right-color: transparent;}
+} */
+
+
 #about{
-  background-color:brown;
+  /* background-color:brown; */
   height: 100vh;
   width: 100vw;
 }
 
 #services{
-  background-color: violet;
+  /* background-color: violet; */
   height: 100vh;
   width: 100vw;
 }
 
 #projects{
-  background-color:yellowgreen;
+  /* background-color:yellowgreen; */
   height: 100vh;
   width: 100vw;
 }
