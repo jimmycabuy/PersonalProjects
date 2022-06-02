@@ -112,7 +112,7 @@
 }
 
 .button::after {
-  content: url('./assets/sunny-outline.png');
+  content: url("./assets/sunny-outline.png");
   width: 40px;
   height: 40px;
   background-color: #e03c3c;
@@ -125,12 +125,11 @@
   display: grid;
   place-content: center;
   line-height: 0;
-  transition: background-color 1s,
-  transform 1s ease-in;
+  transition: background-color 1s, transform 1s ease-in;
 }
 
-#toggle:checked + .button::after{
-    content: url('./assets/moon-outline.png');
-    background-color: #1f257f;
-    transform: translateX(50px) rotate(360deg);
+#toggle:checked + .button::after {
+  content: url("./assets/moon-outline.png");
+  background-color: #1f257f;
+  transform: translateX(50px) rotate(360deg);
 }
