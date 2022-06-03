@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './App.css';
-
+import Typed from "react-typed"
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
       behavior: "smooth",
     });
   };
+  
   return (
     <div className="App">
 
@@ -35,7 +36,23 @@ function App() {
 
         <div id='home'>
           <div className='containerHome'>
-            <p class="line-1 anim-typewriter">Hello, I'm Jimmy, <br></br>full stack developer <br></br>and web designer.</p>
+            <p class="text-banner anim-typewriter">Hello, I'm Jimmy,<br></br>
+              {/* <span className='text-banner-contour'> developer</span>
+              <span> and</span>
+              <span className='text-banner-contour'> web designer</span> */}
+              <Typed
+                strings={[
+                      "full stack developer.",
+                      "web designer.",
+                      "photographer.",
+                      "content creator.",
+                    ]}
+                typeSpeed={100}
+                backSpeed={50}
+                loop
+                className='text-banner-contour'
+              />
+            </p>
             <img src="../images/memoji-3.png" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
           </div>
         </div>

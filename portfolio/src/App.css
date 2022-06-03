@@ -27,7 +27,7 @@ body {
 
 .linkNavBar{
   text-decoration: none;
-  color: black;
+  color: #000;
   background-color: transparent;
   border: 0;
   font-size: 18px;
@@ -65,37 +65,20 @@ body {
 .containerHome{
   display: flex;
   align-items:center;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
   height: 80vh;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.line-1{
-  /* position: relative; */
-  /* top: 50%;   */
-  /* width: 28em; */
-  /* margin: 0 auto; */
-  /* border-right: 2px solid rgba(255,255,255,.75); */
+.text-banner{
   font-size: 600%;
-  /* white-space: nowrap; */
-  /* overflow: hidden; */
-  /* transform: translateY(-50%); */
 }
 
-/* Animation */
-/* .anim-typewriter{
-animation: typewriter 6s steps(56) 1s 1 normal both,
-           blinkTextCursor 500ms steps(56) infinite normal;
+.text-banner-contour{
+  -webkit-text-stroke: 2px #000;
+  color:transparent;
 }
-@keyframes typewriter{
-from{width: 0;}
-to{width: 28em;}
-}
-@keyframes blinkTextCursor{
-from{border-right-color: rgba(0, 0, 0, 0.75);}
-to{border-right-color: transparent;}
-} */
-
 
 #about{
   /* background-color:brown; */
