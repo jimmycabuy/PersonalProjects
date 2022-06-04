@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './App.css';
-import Typed from "react-typed"
+import Typed from "react-typed";
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
 
         <nav className='navbar'>
           <div className='blocnavbar1'>
-            <p style={{fontSize:'25px', color:'#FF4848'}}>Jimmy Cabuy</p>
+            <p style={{fontSize:'25px', color:'#FF4848', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Jimmy Cabuy</p>
           </div>
           <div className='blocnavbar2'>  
             <button className='linkNavBar' onClick={() => scrollToSection(scrollHome)}>Home</button>
@@ -59,8 +59,8 @@ function App() {
         </div>
         <div id='about' ref={scrollAbout}>
         <div className='containerAbout'>
-            {/* <h2 className='titleAbout'>About me</h2> */}
-            <Typed
+            <h1 className='subtitle'>About me</h1>
+            {/* <Typed
               strings={[
                 "About me",
               ]}
@@ -68,26 +68,32 @@ function App() {
               backSpeed={100}
               loop
               className='subtitle'
-            />
+            /> */}
             <div className='subcontainerAbout'>
-              <p className='text-about'>
-                Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
-                <br></br><br></br>
-                Curious and passionate, I’m always looking for new opportunities, keeping myself up-to-date with the latest trends in the tech industry.
-                <br></br><br></br>
-                Being a developer as well as a designer helps me to build the perfect website/mobile app for my clients’ needs 👨🏽‍💻🚀
-                <br></br><br></br>
-                Feel free to <a href='mailto:jimmycabuy@hotmail.com' style={{color:'black'}}>contact me</a> for any project, I will be happy to help you 🙏🏼😊
-                <br></br><br></br>
-                I hope to see you soon! 🙋🏽‍♂️
-              </p>
-              <img src="../images/jimmy.jpg" alt="jimmy" className='imageAbout'/>
+              <div style={{width:'75%'}}>
+                <p className='text-about'>
+                  Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
+                  <br></br><br></br>
+                  Curious and passionate, I’m always looking for new opportunities, keeping myself up-to-date with the latest trends in the tech industry.
+                  <br></br><br></br>
+                  Being a developer as well as a designer helps me to build the perfect website/mobile app for my clients’ needs 👨🏽‍💻🚀
+                  <br></br><br></br>
+                  Feel free to <a href='mailto:jimmycabuy@hotmail.com' style={{color:'black', textDecoration:'none', fontWeight:'500'}}>contact me</a> for any project, I will be happy to help you 🙏🏼😊
+                  <br></br><br></br>
+                  I hope to see you soon! 🙋🏽‍♂️
+                </p>
+              </div>
+              <div className='cardPhoto'>
+                <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
+                <h4>This is me!</h4>
+                <p className='text-service'>25 years old guy from Brussels.</p>
+              </div>
             </div>
           </div>
         </div>
         <div id='services' ref={scrollServices}>
           <div className='containerServices'>
-            <Typed
+            {/* <Typed
               strings={[
                 "Services",
               ]}
@@ -95,7 +101,9 @@ function App() {
               backSpeed={100}
               loop
               className='subtitle'
-            />
+            /> */}
+            <h1 className='subtitle'>Services</h1>
+
             <div className='allCardServices'>
               <div className='cardService'>
                 <img className='memoji-service' src="../images/memoji-6.png" alt="memoji-6"/>
@@ -123,7 +131,7 @@ function App() {
 
         <div id='projects' ref={scrollProjects}>
           <div className='containerProjects'>
-            <Typed
+            {/* <Typed
                 strings={[
                   "Projects",
                 ]}
@@ -131,10 +139,68 @@ function App() {
                 backSpeed={100}
                 loop
                 className='subtitle'
-              />
+              /> */}
+            <h1 className='subtitle'>Projects</h1>
+            <div className='allCardProjects'>
+              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+                <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
+                <h4 /*className='project-company'*/>Uwork</h4>
+                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
+              </a>
+              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+                <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
+                <h4 /*className='project-company'*/>Uwork</h4>
+                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
+              </a>
+              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+                <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
+                <h4 /*className='project-company'*/>Uwork</h4>
+                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
+              </a>
+              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+                <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
+                <h4 /*className='project-company'*/>Uwork</h4>
+                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
+              </a>
+            </div>
           </div>
         </div>
-
+        <footer>
+          <div className='container-social-icons'>
+            <a href='https://www.linkedin.com/in/jimmycabuy/' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/linkedin.png" alt="linkedin"/>
+            </a>
+            <a href='https://www.instagram.com/jimmycabuy/' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/instagram.png" alt="instagram"/>
+            </a>
+            <a href='https://facebook.com/jimmy.cabuy' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/facebook.png" alt="facebook"/>
+            </a>
+            <a href='https://github.com/jimmycabuy/' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/github.png" alt="github"/>
+            </a>
+            <a href='https://fr.malt.be/profile/jimmycabuy' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/malt.png" alt="malt"/>
+            </a>
+            <a href='https://wa.me/32474917815' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/whatsapp.png" alt="whatsapp"/>
+            </a>
+            <a href='https://www.tiktok.com/@thedailyjim' target="_blank" rel='noreferrer'>
+              <img className='social-icon' src="../images/tiktok.png" alt="tiktok"/>
+            </a>
+          </div>
+          <div>
+            <p style={{width:'180px'}}>©2022 by Jimmy Cabuy</p>
+          </div>
+          <div style={{display:'flex', alignItems:'center', justifyContent:'flex-end', width:'180px'}}>
+            <img className='arrow-icon' src="../images/arrow.png" alt="arrow"/>
+            <p style={{textAlign:'right', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Go to top</p>
+          </div>
+        </footer>
     </div>
   );
 }
