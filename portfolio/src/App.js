@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './App.css';
+import './queries.css';
 import Typed from "react-typed";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           </div>
           <div className='blocnavbar2'>  
             <button className='linkNavBar' onClick={() => scrollToSection(scrollHome)}>Home</button>
-            <button className='linkNavBar' onClick={() => scrollToSection(scrollAbout)}>About me</button>
+            <button className='linkNavBar' onClick={() => scrollToSection(scrollAbout)}>About</button>
             <button className='linkNavBar' onClick={() => scrollToSection(scrollServices)}>Services</button>
             <button className='linkNavBar' onClick={() => scrollToSection(scrollProjects)}>Projects</button>
           </div>
@@ -38,9 +39,6 @@ function App() {
         <div id='home'>
           <div className='containerHome'>
             <p class="text-banner">Hello, I'm Jimmy,<br></br>
-              {/* <span className='text-banner-contour'> developer</span>
-              <span> and</span>
-              <span className='text-banner-contour'> web designer</span> */}
               <Typed
                 strings={[
                   "full stack developer.",
@@ -54,7 +52,7 @@ function App() {
                 className='text-banner-contour'
               />
             </p>
-            <img src="../images/memoji-3.png" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
+            <img className='memoji-home' src="../images/memoji-3.png" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
           </div>
         </div>
         <div id='about' ref={scrollAbout}>
@@ -70,7 +68,7 @@ function App() {
               className='subtitle'
             /> */}
             <div className='subcontainerAbout'>
-              <div style={{width:'75%'}}>
+              <div className="div-text-about" style={{width:'75%'}}>
                 <p className='text-about'>
                   Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
                   <br></br><br></br>
@@ -93,15 +91,6 @@ function App() {
         </div>
         <div id='services' ref={scrollServices}>
           <div className='containerServices'>
-            {/* <Typed
-              strings={[
-                "Services",
-              ]}
-              typeSpeed={100}
-              backSpeed={100}
-              loop
-              className='subtitle'
-            /> */}
             <h1 className='subtitle'>Services</h1>
 
             <div className='allCardServices'>
@@ -131,38 +120,29 @@ function App() {
 
         <div id='projects' ref={scrollProjects}>
           <div className='containerProjects'>
-            {/* <Typed
-                strings={[
-                  "Projects",
-                ]}
-                typeSpeed={100}
-                backSpeed={100}
-                loop
-                className='subtitle'
-              /> */}
             <h1 className='subtitle'>Projects</h1>
             <div className='allCardProjects'>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
-                <h4 /*className='project-company'*/>Uwork</h4>
+                <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
-                <h4 /*className='project-company'*/>Uwork</h4>
+                <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
-                <h4 /*className='project-company'*/>Uwork</h4>
+                <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
-                <h4 /*className='project-company'*/>Uwork</h4>
+                <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
@@ -198,7 +178,7 @@ function App() {
           </div>
           <div style={{display:'flex', alignItems:'center', justifyContent:'flex-end', width:'180px'}}>
             <img className='arrow-icon' src="../images/arrow.png" alt="arrow"/>
-            <p style={{textAlign:'right', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Go to top</p>
+            <p className='gototop' style={{textAlign:'right', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Go to top</p>
           </div>
         </footer>
     </div>
