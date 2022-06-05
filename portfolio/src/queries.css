@@ -1,7 +1,7 @@
 @media (max-width: 720px){
     #home{
         height: auto;
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
     }
     .containerHome{
         padding: 0;
@@ -70,7 +70,7 @@
     }
     #home{
         height: auto;
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
     }
     .containerHome{
         padding: 0;
@@ -145,12 +145,15 @@
   @media (max-width: 1325px) {
     #home{
         height: auto;
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
     }
     .containerHome{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .memoji-home{
         height: 250px!important;
@@ -160,6 +163,9 @@
         font-size: 270%!important;
         text-align: center;
         margin-top: 0;
+    }
+    .subtitle{
+        font-size: 270%;
     }
     #projects{
         height: auto;
