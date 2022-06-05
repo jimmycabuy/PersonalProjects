@@ -164,8 +164,17 @@
         text-align: center;
         margin-top: 0;
     }
+    .containerAbout{
+        align-items: center;
+    }
+    .subcontainerAbout{
+    padding-top: 20px;
+    }
+
     .subtitle{
         font-size: 270%;
+        text-align: center;
+        padding: 0;
     }
     #projects{
         height: auto;
