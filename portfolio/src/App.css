@@ -38,9 +38,16 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.linkNavBar:hover{
+/* .linkNavBar:hover{
   color: #000; 
   cursor: pointer;
+} */
+
+.linkNavBar:hover{
+  color: #fff; 
+  cursor: pointer;
+	background: linear-gradient(to right,  #FF4848 0%, #F9B208 100%);
+  border-radius: 20px;
 }
 
 .blocnavbar3 {
