@@ -128,7 +128,7 @@ function App() {
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
-              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+              {/* <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
@@ -145,7 +145,7 @@ function App() {
                 <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
