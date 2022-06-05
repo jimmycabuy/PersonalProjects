@@ -83,7 +83,7 @@ function App() {
               </div>
               <div className='cardPhoto'>
                 <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
-                <h4>This is me!</h4>
+                <h4>This is JIMMY!</h4>
                 <p className='text-service'>25 years old guy from Brussels.</p>
               </div>
             </div>
