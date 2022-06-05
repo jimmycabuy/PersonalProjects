@@ -101,7 +101,7 @@ function App() {
               </div>
               <div className='cardService'>
                 <img className='memoji-service' src="../images/memoji-1.png" alt="memoji-1"/>
-                <h4>Developement</h4>
+                <h4>Development</h4>
                 <p className='text-service'>Once your website is designed and validated, it is time to code it and host it to see it online.</p>
               </div>
               <div className='cardService'>
@@ -125,25 +125,25 @@ function App() {
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
-                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               {/* <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
-                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
-                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a>
               <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
-                <h6 className='project-detail'>Graphic design - Web Design - Developement</h6>
+                <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a> */}
             </div>
