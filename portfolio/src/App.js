@@ -22,18 +22,23 @@ function App() {
 
         <nav className='navbar'>
           <div className='blocnavbar1'>
-            <p style={{fontSize:'25px', color:'#FF4848', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Jimmy Cabuy</p>
+            <p className='myNameLogo' style={{fontSize:'25px', color:'#FF4848', cursor:'pointer'}} onClick={() => scrollToSection(scrollHome)}>Jimmy Cabuy</p>
           </div>
-          <div className='blocnavbar2'>  
-            <button className='linkNavBar' onClick={() => scrollToSection(scrollHome)}>Home</button>
-            <button className='linkNavBar' onClick={() => scrollToSection(scrollAbout)}>About</button>
-            <button className='linkNavBar' onClick={() => scrollToSection(scrollServices)}>Services</button>
-            <button className='linkNavBar' onClick={() => scrollToSection(scrollProjects)}>Projects</button>
+            <input type="checkbox" id='toggler'/>
+            <label htmlFor="toggler"><img className='burgerMenuImg' src="../images/menu.png" alt="burgermenu" style={{height:'20px', width:'20px'}} /></label>
+          <div className='blocnavbar2'>
+            <ul className='list'>
+              <li><button className='linkNavBar' onClick={() => scrollToSection(scrollHome)}>Home</button></li>
+              <li><button className='linkNavBar' onClick={() => scrollToSection(scrollAbout)}>About</button></li>
+              <li><button className='linkNavBar' onClick={() => scrollToSection(scrollServices)}>Services</button></li>
+              <li><button className='linkNavBar' onClick={() => scrollToSection(scrollProjects)}>Projects</button></li>
+              <li><a className='navbarEmail' href="mailto:jimmycabuy@hotmail.com"><button className='linkNavBar'>Contact</button></a></li>
+            </ul>
           </div>
-          <div className='blocnavbar3'>
+          {/* <div className='blocnavbar3'>
             <img src="../images/mail-outline.png" alt="mail" style={{width:'20px', height:'20px'}} />
             <a className='navbarEmail' href="mailto:jimmycabuy@hotmail.com">jimmycabuy@hotmail.com</a>
-          </div>
+          </div> */}
         </nav>
 
         <div id='home'>
