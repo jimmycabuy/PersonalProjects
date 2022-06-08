@@ -300,3 +300,14 @@ and (orientation : portrait) {
     }
 
   }
+
+  @media (min-width: 1925px) {
+    #home, #about, #services, #projects{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    footer, .navbar{
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+  }
