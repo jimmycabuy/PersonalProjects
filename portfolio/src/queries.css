@@ -177,6 +177,7 @@ and (orientation : portrait) {
     }
     .text-about{
         font-size: 115%;
+        margin-top: 0;
     }
     .div-text-about{
         width: 50%;
