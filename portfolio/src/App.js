@@ -74,7 +74,7 @@ function App() {
               className='subtitle'
             /> */}
             <div className='subcontainerAbout'>
-              <div className="div-text-about" style={{width:'75%'}}>
+              <div className="div-text-about" style={{width:'90%'}}>
                 <p className='text-about'>
                   Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
                   <br></br><br></br>
@@ -87,10 +87,12 @@ function App() {
                   I hope to see you soon! 🙋🏽‍♂️
                 </p>
               </div>
-              <div className='cardPhoto'>
-                <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
-                <h4>This is me!</h4>
-                <p className='text-service'>25 years old guy from Brussels.</p>
+              <div>
+                <div className='cardPhoto'>
+                  <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
+                  <h4>This is me!</h4>
+                  <p className='text-service'>25 years old guy from Brussels.</p>
+                </div>
               </div>
             </div>
           </div>
