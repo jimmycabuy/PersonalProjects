@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './App.css';
 import './queries.css';
 import Typed from "react-typed";
+import { FaGithub, FaTiktok, FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaPinterestP } from "react-icons/fa";
 
 function App() {
 
@@ -127,12 +128,12 @@ function App() {
           <div className='containerProjects'>
             <h1 className='subtitle'>Projects</h1>
             <div className='allCardProjects'>
-              <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
+              {/* <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
                 <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
-              </a>
+              </a> */}
               {/* <a className='cardProject' href='https://youtu.be/pDvhGFhw3gk' target="_blank" rel='noreferrer'>
                 <img className='logo-project' src="../images/uwork.jpg" alt="uwork"/>
                 <h4>Uwork</h4>
@@ -151,12 +152,39 @@ function App() {
                 <h6 className='project-detail'>Graphic design - Web Design - Development</h6>
                 <p className='text-project'>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.</p>
               </a> */}
+
+              <div className="card">
+                <ul className="ul">
+                  <li>
+                    <img style={{height:'35px', width:'35px'}} src="../images/expo.png" alt="expo"/>
+                  </li>
+                  <li>
+                    <img style={{height:'35px', width:'35px'}} src="../images/react.png" alt="react"/>
+                  </li>
+                  <li>
+                    <img style={{height:'35px', width:'35px'}} src="../images/node.png" alt="node"/>
+                  </li>
+                  <li>
+                    <img style={{height:'35px', width:'35px'}} src="../images/mongodb.png" alt="mongodb"/>
+                  </li>
+                </ul>
+                <img src="../images/uwork4.jpg" alt="uwork"/>
+                <div className="con-text">
+                  <h2>Uwork</h2>
+                  <h5>Graphic Design - Web Design - Development</h5>
+                  <p>Uwork is a mobile application that connects jobseekers with companies looking for employees. This application aims to totally democratize and review the hiring system with a simple and easy to use application.
+                    <a href="https://youtu.be/pDvhGFhw3gk" className="button" target="_blank" rel='noreferrer'>Learn more</a>
+                  </p>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>
         <footer>
           <div className='container-social-icons'>
-            <a href='https://www.linkedin.com/in/jimmycabuy/' target="_blank" rel='noreferrer'>
+            {/* <a href='https://www.linkedin.com/in/jimmycabuy/' target="_blank" rel='noreferrer'>
               <img className='social-icon' src="../images/linkedin.png" alt="linkedin"/>
             </a>
             <a href='https://www.instagram.com/jimmycabuy/' target="_blank" rel='noreferrer'>
@@ -176,7 +204,14 @@ function App() {
             </a>
             <a href='https://www.tiktok.com/@thedailyjim' target="_blank" rel='noreferrer'>
               <img className='social-icon' src="../images/tiktok.png" alt="tiktok"/>
-            </a>
+            </a> */}
+            <a href='https://www.linkedin.com/in/jimmycabuy/' target="_blank" rel='noreferrer'><FaLinkedinIn className='linkedin'/></a>
+            <a href='https://www.instagram.com/jimmycabuy/' target="_blank" rel='noreferrer'><FaInstagram className='instagram'/></a>
+            <a href='https://facebook.com/jimmy.cabuy' target="_blank" rel='noreferrer'><FaFacebookF className='facebook'/></a>
+            <a href='https://github.com/jimmycabuy/' target="_blank" rel='noreferrer'><FaGithub className='github'/></a>
+            <a href='https://wa.me/32474917815' target="_blank" rel='noreferrer'><FaWhatsapp className='whatsapp'/></a>
+            <a href='https://www.tiktok.com/@thedailyjim' target="_blank" rel='noreferrer'><FaTiktok className='tiktok'/></a>
+            <a href='https://www.pinterest.com/jimmycabuy' target="_blank" rel='noreferrer'><FaPinterestP className='pinterest'/></a>
           </div>
           <div>
             <p style={{width:'180px'}}>©2022 by Jimmy Cabuy</p>
