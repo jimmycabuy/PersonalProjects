@@ -95,9 +95,10 @@ function App() {
               </div>
               <div>
                 <div className='cardPhoto'>
-                  <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
+                  {/* <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
                   <h4>This is me!</h4>
-                  <p className='text-service'>25 years old guy from Brussels.</p>
+                  <p className='text-service'>25 years old guy from Brussels.</p> */}
+                  <img src="../images/portrait.jpg" alt="portrait" style={{overflow:'hidden'}}/>
                 </div>
               </div>
             </div>

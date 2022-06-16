@@ -240,6 +240,7 @@ a{
   height: 400px;
   border-radius: 10%;
   box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .photoprofil{
