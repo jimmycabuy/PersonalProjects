@@ -16,6 +16,48 @@ a{
  color: #000;
 }
 
+.scroll-down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-scroll{
+  font-size: 15px;
+  color: #FF4848;
+  text-align: center;
+}
+
+.mouse{
+  width: 18px;
+  height: 40px;
+  border: 2px solid #FF4848;
+  border-radius: 20px;
+  display: flex;
+}
+
+.mouse-wheel{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #FF4848;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1.2s linear infinite
+}
+
+@keyframes move-wheel{
+  0% {
+    opacity: 0;
+    transform: translateY(-0.6rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0.6rem);
+  }
+}
+
 .linkedin, .facebook, .whatsapp, .github, .instagram, .tiktok, .pinterest{
   transition: all .2s ease-in-out;
 }
@@ -164,6 +206,7 @@ a{
   /* -webkit-text-stroke: 1.5px #000;  */
   color:transparent;
   background: transparent;
+  /* font-size: 85%; */
   background-color: transparent;
 }
 

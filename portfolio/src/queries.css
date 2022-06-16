@@ -244,7 +244,10 @@ and (orientation : portrait) {
     .memoji-home{
         height: 250px!important;
         width: 250px!important;
-        margin-right: 70px;
+        /* margin-right: 70px; */
+    }
+    .scroll-down{
+        display: none;
     }
     .text-banner{
         font-size: 255%!important;

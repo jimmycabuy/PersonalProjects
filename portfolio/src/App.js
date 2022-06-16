@@ -47,7 +47,7 @@ function App() {
             <p class="text-banner">Hello, I'm Jimmy,<br></br>
               <Typed
                 strings={[
-                  "full stack developer.",
+                  "web developer.",
                   "web designer.",
                   "photographer.",
                   "content creator.",
@@ -59,6 +59,12 @@ function App() {
               />
             </p>
             <img className='memoji-home' src="../images/memoji-3.png" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
+            <div className='scroll-down'>
+              <p className='text-scroll'>Scroll down</p>
+              <span className='mouse'>
+                <span className='mouse-wheel'></span>
+              </span>
+            </div>
           </div>
         </div>
         <div id='about' ref={scrollAbout}>
