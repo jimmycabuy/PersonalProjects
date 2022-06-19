@@ -44,7 +44,7 @@ function App() {
 
         <div id='home'>
           <div className='containerHome'>
-            <p class="text-banner">Hello, I'm Jimmy,<br></br>
+            <p className="text-banner">Hello, I'm Jimmy,<br></br>
               <Typed
                 strings={[
                   "web developer.",
