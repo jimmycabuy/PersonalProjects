@@ -45,6 +45,11 @@ function App() {
         <div id='home'>
           <div className='containerHome'>
             <p className="text-banner">Hello, I'm Jimmy,<br></br>
+            {/* <p className='text-banner-contour'>web developer</p>
+            <p className='text-banner-contour'>web design</p>
+            <p className='text-banner-contour'>photographer</p>
+            <p className='text-banner-contour'>content creator</p> */}
+
               <Typed
                 strings={[
                   "web developer.",
@@ -58,7 +63,7 @@ function App() {
                 className='text-banner-contour'
               />
             </p>
-            <img className='memoji-home' src="../images/memoji-3.png" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
+            <img className='memoji-home' src="../images/memoji-3.webp" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
             <div className='scroll-down'>
               <p className='text-scroll'>Scroll down</p>
               <span className='mouse'>
@@ -98,7 +103,7 @@ function App() {
                   {/* <img src="../images/jimmyy.jpg" alt="jimmy" className='photoprofil'/>
                   <h4>This is me!</h4>
                   <p className='text-service'>25 years old guy from Brussels.</p> */}
-                  <img src="../images/portrait.jpg" alt="portrait" style={{overflow:'hidden'}}/>
+                  <img src="../images/portrait.webp" alt="portrait" style={{overflow:'hidden'}}/>
                 </div>
               </div>
             </div>
@@ -177,7 +182,7 @@ function App() {
                     <img style={{height:'35px', width:'35px'}} src="../images/mongodb.png" alt="mongodb"/>
                   </li>
                 </ul>
-                <img src="../images/uwork4.jpg" alt="uwork"/>
+                <img src="../images/uwork4.webp" alt="uwork"/>
                 <div className="con-text">
                   <h2>Uwork</h2>
                   <h5>Graphic Design - Web Design - Development</h5>

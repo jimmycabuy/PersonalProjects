@@ -204,11 +204,13 @@ a{
 }
 
 .text-banner-contour{
-  /* -webkit-text-stroke: 1.5px #000;  */
-  color:transparent;
-  background: transparent;
+  /* -webkit-text-stroke: 1.5px #ff4848;  */
+  margin: 0;
+  padding: 0;
+  /* color:transparent;
+  background: transparent; */
   /* font-size: 85%; */
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 #about{
