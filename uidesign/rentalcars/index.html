@@ -27,29 +27,33 @@
           id="inputlocation"
         />
         <div class="divcheckbox">
-          <input type="checkbox" id="checkbox1" onclick="displayDeliveryLoc()" />
+          <input
+            type="checkbox"
+            id="checkbox1"
+            onclick="displayDeliveryLoc()"
+          />
           <label for="checkbox1">Deliver the car somewhere else</label>
         </div>
-        <div id="divdeliverylocation" style="display: none;">
-            <p style="margin-bottom:10px ;">Delivery location</p>
-            <input
-              type="text"
-              placeholder="City, airport, region, district..."
-              id="inputlocation"
-              style="width: 96.5%;"
-            />
+        <div id="divdeliverylocation" style="display: none">
+          <p style="margin-bottom: 10px">Delivery location</p>
+          <input
+            type="text"
+            placeholder="City, airport, region, district..."
+            id="inputlocation"
+            style="width: 96.5%"
+          />
         </div>
       </div>
       <div class="date">
         <div class="datepickup">
           <p>Date of pickup</p>
-          <input type="date" id="inputdate1"/>
-          <input type="time" id="inputdatetime1"/>
+          <input type="date" id="inputdate1" />
+          <input type="time" id="inputdatetime1" />
         </div>
         <div class="datedelivery">
           <p>Date of delivery</p>
           <input type="date" id="inputdate2" />
-          <input type="time" id="inputdatetime2"/>
+          <input type="time" id="inputdatetime2" />
         </div>
       </div>
       <div class="divcheckbox">
