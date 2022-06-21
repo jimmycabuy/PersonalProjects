@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>UI Design</title>
+  </head>
+  <body>
+    <div class="box">
+      <h3>Search for a rental car</h3>
+
+      <div class="location">
+        <p>Pick up location</p>
+        <input
+          type="text"
+          placeholder="City, airport, region, district..."
+          id="inputlocation"
+        />
+        <div class="divcheckbox">
+          <input type="checkbox" id="checkbox1" onclick="displayDeliveryLoc()" />
+          <label for="checkbox1">Deliver the car somewhere else</label>
+        </div>
+        <div id="divdeliverylocation" style="display: none;">
+            <p style="margin-bottom:10px ;">Delivery location</p>
+            <input
+              type="text"
+              placeholder="City, airport, region, district..."
+              id="inputlocation"
+              style="width: 96.5%;"
+            />
+        </div>
+      </div>
+      <div class="date">
+        <div class="datepickup">
+          <p>Date of pickup</p>
+          <input type="date" id="inputdate1"/>
+          <input type="time" id="inputdatetime1"/>
+        </div>
+        <div class="datedelivery">
+          <p>Date of delivery</p>
+          <input type="date" id="inputdate2" />
+          <input type="time" id="inputdatetime2"/>
+        </div>
+      </div>
+      <div class="divcheckbox">
+        <input type="checkbox" id="checkbox2" />
+        <label for="checkbox2">The driver's age between 30 and 65?</label>
+      </div>
+      <div>
+        <ul>
+          <li>No credit cards fees</li>
+          <li>No change fees</li>
+          <li>Price match guarantee</li>
+        </ul>
+      </div>
+
+      <button>Search</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
