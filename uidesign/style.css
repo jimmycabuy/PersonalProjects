@@ -1,0 +1,126 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f3e5;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.box {
+  width: 25rem;
+  height: 40rem;
+  background-color: #fff;
+  border-radius: 5%;
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.location {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.datepickup,
+.datedelivery {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  gap: 10px;
+}
+
+#inputlocation::placeholder {
+  color: black;
+  /* padding: 10px; */
+}
+
+#inputdate1,
+#inputdate2,
+#inputdatetime1,
+#inputdatetime2,
+#inputlocation {
+  height: 30px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 5px;
+}
+
+#inputdate1,
+#inputdatetime1 {
+  margin-right: 5px;
+}
+
+#inputdate2,
+#inputdatetime2 {
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li:before {
+  content: "✓";
+  padding-right: 5px;
+}
+
+button {
+  background-color: #fe6f4f;
+  height: 60px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fc9a62;
+}
+
+#checkbox1,
+#checkbox2 {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.divcheckbox {
+  align-items: center;
+  display: flex;
+}
+
+label,
+li {
+  font-size: small;
+}
+
+input[type="checkbox"] {
+  accent-color: red;
+}
