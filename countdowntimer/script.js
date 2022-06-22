@@ -29,7 +29,7 @@ function tick() {
 
   if (secondsRemaining === 0) {
     audio.play();
-    alert("Done!");
+    alert("Time finish!");
     clearInterval(intervalHandle);
     resetPage();
     audio.pause();
