@@ -96,6 +96,10 @@ function App() {
                   Feel free to <a href='mailto:jimmycabuy@hotmail.com' style={{color:'black', textDecoration:'none', fontWeight:'500'}}>contact me</a> for any project, I will be happy to help you 🙏🏼😊
                   <br></br><br></br>
                   I hope to see you soon! 🙋🏽‍♂️
+                  <br></br><br></br>
+                  <a href="/document/Resume_Jimmy_Cabuy.pdf" target="_blank" rel='noreferrer' className='bouton_cv'>Find my resume here</a>
+                  <br></br><br></br>
+
                 </p>
               </div>
               <div>
