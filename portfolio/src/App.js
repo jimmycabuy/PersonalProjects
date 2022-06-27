@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './App.css';
 import './queries.css';
 import Typed from "react-typed";
-import { FaGithub, FaTiktok, FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaPinterestP } from "react-icons/fa";
+import { FaGithub, FaTiktok, FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaPinterestP, FaTelegramPlane } from "react-icons/fa";
 
 function App() {
 
@@ -230,6 +230,7 @@ function App() {
             <a href='https://wa.me/32474917815' target="_blank" rel='noreferrer'><FaWhatsapp className='whatsapp'/></a>
             <a href='https://www.tiktok.com/@thedailyjim' target="_blank" rel='noreferrer'><FaTiktok className='tiktok'/></a>
             <a href='https://www.pinterest.com/jimmycabuy' target="_blank" rel='noreferrer'><FaPinterestP className='pinterest'/></a>
+            <a href='https://t.me/+32474917815' target="_blank" rel='noreferrer'><FaTelegramPlane className='telegram'/></a>
           </div>
           <div>
             <p style={{width:'180px'}}>©2022 by Jimmy Cabuy</p>

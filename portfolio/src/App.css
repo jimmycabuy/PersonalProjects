@@ -58,7 +58,7 @@ a{
   }
 }
 
-.linkedin, .facebook, .whatsapp, .github, .instagram, .tiktok, .pinterest{
+.linkedin, .facebook, .whatsapp, .github, .instagram, .tiktok, .pinterest, .telegram{
   transition: all .2s ease-in-out;
 }
 
@@ -100,6 +100,12 @@ a{
 
 .pinterest:hover{
   color: #E60023;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.telegram:hover{
+  color: #229ED9;
   cursor: pointer;
   transform: scale(1.3);
 }
