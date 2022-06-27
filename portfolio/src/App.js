@@ -89,6 +89,9 @@ function App() {
                 <p className='text-about'>
                   Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
                   <br></br><br></br>
+                  After obtaining my bachelor's degree in e-business at the EPHEC, I worked for 2.5 years in digital marketing as a content creator and social ads expert.
+                  I followed then an intensive coding bootcamp at La Capsule in order to become a junior software developer  {/*I'm now looking for opportunities in web and mobile development.*/}
+                  <br></br><br></br>
                   Curious and passionate, I’m always looking for new opportunities, keeping myself up-to-date with the latest trends in the tech industry.
                   <br></br><br></br>
                   Being a developer as well as a designer helps me to build the perfect website/mobile app for my clients’ needs 👨🏽‍💻🚀
