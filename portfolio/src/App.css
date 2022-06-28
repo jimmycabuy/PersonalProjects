@@ -30,8 +30,8 @@ a{
 }
 
 .mouse{
-  width: 18px;
-  height: 40px;
+  width: 28px;
+  height: 48px;
   border: 2px solid #FF4848;
   border-radius: 20px;
   display: flex;
@@ -39,8 +39,8 @@ a{
 
 .mouse-wheel{
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #FF4848;
   border-radius: 50%;
   margin: auto;

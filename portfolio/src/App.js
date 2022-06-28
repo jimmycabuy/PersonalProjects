@@ -65,10 +65,10 @@ function App() {
             </p>
             <img className='memoji-home' src="../images/memoji-3.webp" alt="memoji-3" style={{width:'400px', height:'400px'}}/>
             <div className='scroll-down'>
-              <p className='text-scroll'>Scroll down</p>
               <span className='mouse'>
                 <span className='mouse-wheel'></span>
               </span>
+              <p className='text-scroll'>Scroll me</p>
             </div>
           </div>
         </div>
