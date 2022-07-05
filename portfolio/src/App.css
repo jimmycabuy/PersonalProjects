@@ -39,8 +39,8 @@ a{
 
 .mouse-wheel{
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   background-color: #FF4848;
   border-radius: 50%;
   margin: auto;
@@ -50,11 +50,11 @@ a{
 @keyframes move-wheel{
   0% {
     opacity: 0;
-    transform: translateY(-0.6rem);
+    transform: translateY(-0.8rem);
   }
   100%{
     opacity: 1;
-    transform: translateY(0.6rem);
+    transform: translateY(0.8rem);
   }
 }
 
