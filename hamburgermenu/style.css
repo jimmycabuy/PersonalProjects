@@ -66,7 +66,7 @@ html {
   padding: 80px 0;
   list-style: none;
   background-color: #FFDED8;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); */
   transition-duration: 0.25s;
 }
 .menu_item {
