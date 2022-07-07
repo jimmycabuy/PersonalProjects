@@ -26,6 +26,10 @@ body {
   gap: 30px;
 }
 
+h2{
+  font-weight: 600;
+}
+
 .input {
   padding: 12px;
   width: 300px;
