@@ -27,22 +27,29 @@ body {
 }
 
 .input {
-  padding: 12px 20px;
+  padding: 12px;
   width: 300px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.input:focus{
+  outline: none;
 }
 
 button {
-  padding: 12px 20px;
+  padding: 12px;
   width: 300px;
   border-radius: 20px;
   border: 0;
   background: #485696;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 .error {
