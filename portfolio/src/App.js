@@ -199,6 +199,17 @@ function App() {
                 </div>
               </div>
 
+              <div className="card">
+                <img src="../images/cabine.jpg" alt="uwork"/>
+                <div className="con-text">
+                  <h2>thedailyjim</h2>
+                  <h5>Photography</h5>
+                  <p>During my free time, I have another passion besides coding, it's photography. I've been passionate about the world of photography since I was young and I love to get out of my house and capture the life and the nature around us.
+                    <a href="https://www.instagram.com/thedailyjim/" className="button" target="_blank" rel='noreferrer'>Learn more</a>
+                  </p>
+                </div>
+              </div>
+
 
             </div>
           </div>
