@@ -7,4 +7,3 @@ function checkPalindrom(str) {
   return str;
 }
 console.log(checkPalindrom("kayak"));
-Ï
