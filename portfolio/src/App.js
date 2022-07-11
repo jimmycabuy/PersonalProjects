@@ -199,7 +199,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="card">
+              {/* <div className="card">
                 <img src="../images/cabine.jpg" alt="uwork"/>
                 <div className="con-text">
                   <h2>thedailyjim</h2>
@@ -208,7 +208,7 @@ function App() {
                     <a href="https://www.instagram.com/thedailyjim/" className="button" target="_blank" rel='noreferrer'>Learn more</a>
                   </p>
                 </div>
-              </div>
+              </div> */}
 
 
             </div>
