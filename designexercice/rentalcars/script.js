@@ -39,7 +39,6 @@ window.onload = function () {
 };
 
 function displayDeliveryLoc() {
-  console.log("bonjour");
   var checkBox = document.getElementById("checkbox1");
   var div = document.getElementById("divdeliverylocation");
 
