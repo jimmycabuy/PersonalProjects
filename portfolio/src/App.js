@@ -90,7 +90,7 @@ function App() {
                   Hello 👋🏼, I’m Jimmy, full stack web/mobile developer, web designer and photographer.
                   <br></br><br></br>
                   After obtaining my bachelor's degree in e-business at the EPHEC, I worked for 2 years and a half in digital marketing as a content creator and social ads expert.
-                  I followed then an intensive coding bootcamp at La Capsule in order to become a junior web developer  {/*I'm now looking for opportunities in web and mobile development.*/}
+                  I followed then an intensive coding bootcamp at La Capsule in order to become a junior web developer.  {/*I'm now looking for opportunities in web and mobile development.*/}
                   <br></br><br></br>
                   Curious and passionate, I’m always looking for new opportunities, keeping myself up-to-date with the latest trends in the tech industry.
                   <br></br><br></br>
