@@ -1,1 +1,0 @@
-<p>Design exercice inspired from <a href='https://uidesigndaily.fra1.digitaloceanspaces.com/uploads/1572/day_1572.png' alt="uidesigndaily" target="_blank">UI Design Daily</a></p>
