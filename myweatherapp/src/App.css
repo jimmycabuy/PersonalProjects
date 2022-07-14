@@ -120,3 +120,11 @@ p {
   font-size: 75%;
   color: #94a8ae;
 }
+
+@media screen and (max-width : 753px){
+  .box_weather_now{
+    width: 72vw;
+    height: 75vh;
+    border: none;
+  }
+}
