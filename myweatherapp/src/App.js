@@ -89,7 +89,7 @@ function App() {
   }
   var yyyy = today.getFullYear();
 
-  today = dd + ' ' + mm + ' ' + yyyy;
+  // today = dd + ' ' + mm + ' ' + yyyy;
 
   return (
     <div className="box_weather_now">
