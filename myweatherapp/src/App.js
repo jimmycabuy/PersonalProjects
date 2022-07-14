@@ -70,7 +70,7 @@ function App() {
     mm = 'Juin'
   }
   if(mm === 6){
-    mm = 'Juilletttttt'
+    mm = 'Juillet'
   }
   if(mm === 7){
     mm = 'Aout'
