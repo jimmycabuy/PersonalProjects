@@ -41,7 +41,6 @@ p {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 50px;
 }
 
 .input_and_button{
@@ -126,5 +125,7 @@ p {
     width: 72vw;
     height: 75vh;
     border: none;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
