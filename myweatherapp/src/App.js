@@ -29,7 +29,7 @@ function App() {
 
       if(response.weather[0].description === "ciel dégagé"){
         setIcon('../assets/sun.png')
-      } else if(response.weather[0].description === "légère pluie" || response.weather[0].description === 'petites averses'){
+      } else if(response.weather[0].description === "légère pluie" || response.weather[0].description === 'petites averses' || response.weather[0].description === 'averses de pluie'){
         setIcon('../assets/rain.png')
       } else if(response.weather[0].description === "peu nuageux" || response.weather[0].description === 'nuageux' || response.weather[0].description === 'couvert'){
         setIcon('../assets/cloud.png')
