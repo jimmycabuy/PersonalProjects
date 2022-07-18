@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 html {
-  background-color: #d9f6fe;
+  background-color: #F2F2F2;
 }
 
 body {
@@ -29,7 +29,9 @@ p {
 .box_weather_now {
   width: 350px;
   height: 350px;
-  border: 4px solid #083744;
+  /* border: 3px solid #083744; */
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   border-radius: 50px;
   position: absolute;
   top: 0;
