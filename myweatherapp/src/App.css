@@ -136,4 +136,7 @@ p {
     gap: 40px;
     box-shadow: none;
   }
+  html {
+    background-color: #fff
+  }
 }
