@@ -51,48 +51,53 @@ function App() {
       setCitySearch('');
   }
 
+  // Get the date and the time of today
+
   var today = new Date();
+  var time;
   var dd = today.getDate();
   var mm = today.getMonth();
+  var hour = today.getHours();
+  var min = today.getMinutes();
   if(mm === 0){
-    mm = 'Janvier'
+    mm = 'January'
   }
   if(mm === 1){
-    mm = 'Février'
+    mm = 'February'
   }
   if(mm === 2){
-    mm = 'Mars'
+    mm = 'March'
   }
   if(mm === 3){
-    mm = 'Avril'
+    mm = 'April'
   }
   if(mm === 4){
-    mm = 'Mai'
+    mm = 'May'
   }
   if(mm === 5){
-    mm = 'Juin'
+    mm = 'June'
   }
   if(mm === 6){
-    mm = 'Juillet'
+    mm = 'July'
   }
   if(mm === 7){
-    mm = 'Aout'
+    mm = 'August'
   }
   if(mm === 8){
-    mm = 'Septembre'
+    mm = 'September'
   }
   if(mm === 9){
-    mm = 'Octobre'
+    mm = 'October'
   }
   if(mm === 10){
-    mm = 'Novembre'
+    mm = 'November'
   }
   if(mm === 11){
-    mm = 'Décembre'
+    mm = 'December'
   }
   var yyyy = today.getFullYear();
-
   today = dd + ' ' + mm + ' ' + yyyy;
+  time = hour + ':' + min;
 
   return (
     <div className="box_weather_now">
@@ -102,7 +107,7 @@ function App() {
       </div>
       <div className="city_and_time">
         <h3 className="city">{city}</h3>
-        <h5>{today}</h5>
+        <h5>{today} | {time}</h5>
       </div>
       <div className="desc_icon_and_temp">
         <img src={icon} alt="icon" style={{height:'130px'}} />
