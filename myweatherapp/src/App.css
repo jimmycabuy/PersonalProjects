@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 html {
-  background-color: #F2F2F2;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,124,255,1) 100%);
 }
 
 body {
@@ -134,5 +135,6 @@ p {
     border: none;
     justify-content: center;
     gap: 40px;
+    box-shadow: none;
   }
 }
