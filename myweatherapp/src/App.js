@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     async function loadDataAPI() {
-      var rawResponse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&units=metric&appid=a6e3eaa80322d67999b7ac143be3fddb`);
+      var rawResponse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=en&units=metric&appid=a6e3eaa80322d67999b7ac143be3fddb`);
       var response = await rawResponse.json();
       setTemp(Math.floor(response.main.temp));
       setIcon(`http://openweathermap.org/img/wn/${response.weather[0].icon}.png`)
@@ -27,17 +27,20 @@ function App() {
       setPressure(response.main.pressure);
       setHumidity(response.main.humidity);
 
-      if(response.weather[0].description === "ciel dégagé"){
+      if(response.weather[0].main === "Clear"){
         setIcon('../assets/sun.png')
-      } else if(response.weather[0].description === "légère pluie" || response.weather[0].description === 'petites averses' || response.weather[0].description === 'averses de pluie'){
+      } else if(response.weather[0].main === "Thunderstorm"){
+        setIcon('../assets/thunderstorm.png')
+      } else if(response.weather[0].main === "Drizzle"){
         setIcon('../assets/rain.png')
-      } else if(response.weather[0].description === "peu nuageux" || response.weather[0].description === 'nuageux' || response.weather[0].description === 'couvert'){
+      } else if(response.weather[0].main === "Clouds"){
         setIcon('../assets/cloud.png')
-      } else if(response.weather[0].description === "pluie modérée"){
-        setIcon('../assets/cloudy.png')
-      }
-      else if(response.weather[0].description === "partiellement nuageux"){
-        setIcon('../assets/partly-cloudy.png')
+      } else if(response.weather[0].main === "Snow"){
+        setIcon('../assets/snowflake.png')
+      } else if(response.weather[0].main === "Rain"){
+        setIcon('../assets/rain.png')
+      } else if(response.weather[0].main === "Mist"){
+        setIcon('../assets/mist.png')
       }
     }
     loadDataAPI();
