@@ -12,6 +12,18 @@ p {
   margin: 0;
 }
 
+.container_page {
+  padding-top: 60px;
+  background-size: 210px 210px;
+  background-image: linear-gradient(to right, #eee 1px, transparent 1px),
+    linear-gradient(to bottom, #eee 1px, transparent 1px);
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -85,7 +97,10 @@ p {
 }
 
 .drobe_word {
-  color: #f48580;
+  color: #f4c0bd;
+  font-weight: 600;
+  text-decoration: underline dotted #f4c0bd;
+  text-underline-offset: 5px;
 }
 
 .shop_now_button {
@@ -149,16 +164,4 @@ p {
 .img_photo {
   max-width: 100%;
   max-height: 100%;
-}
-
-.container_page {
-  padding-top: 60px;
-  background-size: 210px 210px;
-  background-image: linear-gradient(to right, #eee 1px, transparent 1px),
-    linear-gradient(to bottom, #eee 1px, transparent 1px);
-}
-
-nav {
-  padding-top: 10px;
-  padding-bottom: 20px;
 }
