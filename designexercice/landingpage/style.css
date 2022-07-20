@@ -1,0 +1,153 @@
+html {
+  font-family: "Overpass", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bloc0_navbar {
+  width: 87px;
+}
+
+.bloc1_navbar {
+  gap: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc2_navbar {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.p_navbar {
+  width: 78px;
+  text-align: center;
+}
+
+.navbar_logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar_search {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar_basket {
+  height: 17px;
+  width: 17px;
+}
+
+.box_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 100px; */
+  /* margin-bottom: 50px; */
+  gap: 20px;
+}
+
+.meet_drobe {
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.drobe_word {
+  color: #f48580;
+}
+
+.shop_now_button {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  border-radius: 24px;
+}
+
+.box_all_photos {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.box_photo_1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #cbc7f5;
+  overflow: hidden;
+  top: -100px;
+  position: relative;
+}
+.box_photo_2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #e0f09e;
+  overflow: hidden;
+  bottom: -30px;
+  position: relative;
+}
+.box_photo_3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #f4c0bd;
+  overflow: hidden;
+  bottom: -30px;
+  position: relative;
+}
+.box_photo_4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #f6d5bc;
+  overflow: hidden;
+  top: -100px;
+  position: relative;
+}
+
+.img_photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container_page {
+  padding-top: 60px;
+  background-size: 210px 210px;
+  background-image: linear-gradient(to right, #eee 1px, transparent 1px),
+    linear-gradient(to bottom, #eee 1px, transparent 1px);
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
