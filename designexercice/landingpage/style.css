@@ -57,6 +57,13 @@ p {
   width: 17px;
 }
 
+.navbar_basket:hover,
+.navbar_search:hover,
+.navbar_logo:hover,
+.p_navbar:hover {
+  cursor: pointer;
+}
+
 .box_title {
   display: flex;
   flex-direction: column;
@@ -90,6 +97,10 @@ p {
   height: 40px;
   width: 100px;
   border-radius: 24px;
+}
+
+.shop_now_button:hover {
+  cursor: pointer;
 }
 
 .box_all_photos {
