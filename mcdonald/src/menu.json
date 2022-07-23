@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Happy Meal",
-        "promo": "50% off",
+        "promo": null,
         "price": 4.2,
         "icon": "happy-meal.png",
         "cat": "menu"
