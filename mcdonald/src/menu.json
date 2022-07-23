@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Combo Meal",
+        "promo": "20% off",
+        "price": 4.5,
+        "icon": "combo-meal.png",
+        "cat": "menu"
+    },
+    {
+        "id": 2,
+        "name": "Burgers & Sandwiches",
+        "promo": null,
+        "price": 5,
+        "icon": "burger-sandwich.png",
+        "cat": "menu"
+    },
+    {
+        "id": 3,
+        "name": "Happy Meal",
+        "promo": null,
+        "price": 4.2,
+        "icon": "happy-meal.png",
+        "cat": "menu"
+    },
+    {
+        "id": 4,
+        "name": "Beverages",
+        "promo": null,
+        "price": 2,
+        "icon": "drink.png",
+        "cat": "menu"
+    },
+    {
+        "id": 5,
+        "name": "Chicken",
+        "promo": null,
+        "price": 4,
+        "icon": "chicken.png",
+        "cat": "menu"
+    },
+    {
+        "id": 6,
+        "name": "Snack & Sides",
+        "promo": null,
+        "price": 4,
+        "icon": "snacks.png",
+        "cat": "menu"
+    },
+    {
+        "id": 7,
+        "name": "Big Mac",
+        "promo": null,
+        "price": 4.5,
+        "icon": "bigmac.png",
+        "cat": "product"
+    },
+    {
+        "id": 8,
+        "name": "Quarter Pounder",
+        "promo": null,
+        "price": 5,
+        "icon": "quarter.png",
+        "cat": "product"
+    },
+    {
+        "id": 9,
+        "name": "Cheeseburger",
+        "promo": null,
+        "price": 4.2,
+        "icon": "cheeseburger.png",
+        "cat": "product"
+    },
+    {
+        "id": 10,
+        "name": "Crispy Chicken",
+        "promo": null,
+        "price": 2,
+        "icon": "mcchicken.png",
+        "cat": "product"
+    },
+    {
+        "id": 11,
+        "name": "Wrap Chicken",
+        "promo": null,
+        "price": 4,
+        "icon": "wrap.png",
+        "cat": "product"
+    },
+    {
+        "id": 12,
+        "name": "Filet-o-Fish",
+        "promo": null,
+        "price": 4,
+        "icon": "o-fish.png",
+        "cat": "product"
+    }
+]
