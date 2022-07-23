@@ -53,7 +53,9 @@
         "promo": null,
         "price": 4.5,
         "icon": "bigmac.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : true,
+        "quantity" : 2
     },
     {
         "id": 8,
@@ -61,7 +63,9 @@
         "promo": null,
         "price": 5,
         "icon": "quarter.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : false,
+        "quantity" : 0
     },
     {
         "id": 9,
@@ -69,7 +73,9 @@
         "promo": null,
         "price": 4.2,
         "icon": "cheeseburger.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : true,
+        "quantity" : 1
     },
     {
         "id": 10,
@@ -77,7 +83,9 @@
         "promo": null,
         "price": 2,
         "icon": "mcchicken.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : true,
+        "quantity" : 1
     },
     {
         "id": 11,
@@ -85,7 +93,9 @@
         "promo": null,
         "price": 4,
         "icon": "wrap.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : false,
+        "quantity" : 0
     },
     {
         "id": 12,
@@ -93,6 +103,8 @@
         "promo": null,
         "price": 4,
         "icon": "o-fish.png",
-        "cat": "product"
+        "cat": "product",
+        "ordered" : false,
+        "quantity" : 0
     }
 ]

@@ -3,6 +3,7 @@ import menu from "./menu.json";
 import ItemUp from "./components/ItemUp";
 import ItempUpGrey from "./components/ItemUpGrey";
 import ItemDown from "./components/ItemDown";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <img src="../icons/logo.png" alt="logo" className="logo" />
         <img src="../icons/usa.png" alt="usa" className="usa_flag" />
       </div>
+      <Sidebar/>
       <h3 className="hey_whatsup">
         <span className="hey">Hey,</span>
         <br /> what's up?{" "}
