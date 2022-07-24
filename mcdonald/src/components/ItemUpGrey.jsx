@@ -9,7 +9,7 @@ export default function ItempUpGrey(props) {
             alt={props.name}
             className="img_item_up"
           />
-          <h5>{props.name}</h5>
+          <h5 className="text_item_up">{props.name}</h5>
         </div>
     </>
   );
