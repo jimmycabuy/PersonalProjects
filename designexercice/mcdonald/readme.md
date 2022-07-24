@@ -1,2 +1,2 @@
 <p>Challenge from <a href='https://youtu.be/9kULTUsPOgw' alt="benjamincode" target="_blank">Benjamin Code's YouTube video</a></p>
-<p>Result<a href='https://mcdonald-jim.vercel.app/' alt="result_challenge" target="_blank">here</a>(work only on mobile)</p>
+<p>Result<a href='https://mcdonald-jim.vercel.app/' alt="result_challenge" target="_blank"> here</a> (Only works in mobile version)</p>
