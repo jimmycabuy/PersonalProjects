@@ -12,7 +12,7 @@ export default function Sidebar() {
       <p className="takeout">Take out</p>
       <div className="box_item_sidebar">
         {menu.map((item) => {
-          if (item.ordered === true) {
+          if (item.ordered === true && item.quantity > 0) {
             return <ItemSideBar key={item.id} {...item} />;
           }
           return null;
@@ -21,7 +21,7 @@ export default function Sidebar() {
       <div className="total_sidebar">
         <hr />
         <p className="text_total">Total</p>
-        <p className="price_total">$ 15.2</p>
+        <p className="price_total">$ 21.2</p>
         <button className="button_done">Done</button>
       </div>
     </div>

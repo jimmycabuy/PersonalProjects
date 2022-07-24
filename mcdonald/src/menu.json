@@ -84,8 +84,8 @@
         "price": 2,
         "icon": "mcchicken.png",
         "cat": "product",
-        "ordered" : true,
-        "quantity" : 1
+        "ordered" : false,
+        "quantity" : 0
     },
     {
         "id": 11,
@@ -94,8 +94,8 @@
         "price": 4,
         "icon": "wrap.png",
         "cat": "product",
-        "ordered" : false,
-        "quantity" : 0
+        "ordered" : true,
+        "quantity" : 2
     },
     {
         "id": 12,
