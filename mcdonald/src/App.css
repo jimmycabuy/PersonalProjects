@@ -114,29 +114,38 @@ p {
   gap: 10px;
 }
 
-.price {
+.price_item_down {
   color: #ffca40;
-  font-size: 85%;
+  font-size: 75%;
+}
+
+.text_item_down{
+  font-size: 60%;
+  font-weight: 400;
 }
 
 .item_down {
-  background-color: #f8f8f6;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 3px;
   padding-bottom: 10px;
   padding-top: 10px;
   align-items: center;
   text-align: center;
 }
 
+.img_item_down{
+  width: 30px;
+}
+
 .sidebar_container {
   background-color: #f8f8f6;
   border-left: 1px solid #f1f1ef;
-  height: 135vh;
+  height: auto;
   width: 30vw;
   float: right;
   padding: 10px;
