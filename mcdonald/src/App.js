@@ -8,11 +8,10 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <div className="app">
+      <Sidebar />
       <div className="div_logo">
         <img src="../icons/logo.png" alt="logo" className="logo" />
-        <img src="../icons/usa.png" alt="usa" className="usa_flag" />
       </div>
-      <Sidebar/>
       <h3 className="hey_whatsup">
         <span className="hey">Hey,</span>
         <br /> what's up?{" "}

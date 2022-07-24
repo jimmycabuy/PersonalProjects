@@ -15,22 +15,32 @@ p {
 }
 
 .app {
-  padding: 20px;
+  padding: 0px 0px 20px 20px;
 }
 
 .div_logo {
+  padding-top: 20px;
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 .logo {
   width: 40px;
 }
 
-.usa_flag{
+.div_usa_flag {
+  padding-top: 10px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.usa_flag {
   width: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .hey_whatsup {
@@ -123,22 +133,27 @@ p {
   text-align: center;
 }
 
-.sidebar_container{
+.sidebar_container {
   background-color: #f8f8f6;
-  border-radius: 20px;
+  border-left: 1px solid #f1f1ef;
   height: 135vh;
-  width: 20vw;
+  width: 30vw;
   float: right;
   padding: 10px;
 }
 
-.takeout{
-  margin-top:5px;
-  opacity: 50%;
-  font-size: 60%;
+.myorder {
+  font-size: 120%;
 }
 
-.box_item_sidebar{
+.takeout {
+  margin-top: 5px;
+  opacity: 50%;
+  font-size: 80%;
+  margin-bottom: 35px;
+}
+
+.box_item_sidebar {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +163,7 @@ p {
   gap: 20px;
 }
 
-.item_sidebar{
+.item_sidebar {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,48 +171,80 @@ p {
   gap: 5px;
 }
 
-.img_item_sidebar{
-  width: 30px;
+.img_item_sidebar {
+  width: 20px;
   background-color: #fff;
   border-radius: 10px;
   padding: 10px;
 }
 
-.div_quantity{
+.div_quantity {
   display: flex;
   gap: 7px;
   align-items: center;
   text-align: center;
 }
 
-.text_sidebar_item{
-  font-size: 85%;
+.text_sidebar_item {
+  font-size: 65%;
   font-weight: bold;
 }
 
-button{
+button {
   font-family: "Overpass", sans-serif;
   text-align: center;
   border-radius: 5px;
-  width: 30px;
-  height: 20px;
+  color: #000;
+  align-items: center;
 }
 
-.button_min{
+.button_min {
+  width: 30px;
+  height: 20px;
   background: #fff;
   border: 1px solid #f1f1ef;
 }
 
-.button_max{
+.button_max {
+  width: 30px;
+  height: 20px;
   border: none;
   background-color: #ffca40;
 }
 
 hr {
-  height: 2px;
+  height: 01px;
+  border-radius: 10px;
   width: 100%;
   background-color: #f1f1ef;
-  margin-bottom: 10px!important;
+  margin-bottom: 10px !important;
   border: none;
   margin: 0;
+}
+
+.total_sidebar {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.text_total {
+  opacity: 50%;
+  font-size: 80%;
+}
+
+.price_total {
+  font-weight: bold;
+}
+
+.button_done {
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: #ffca40;
+  border-radius: 20px;
 }
